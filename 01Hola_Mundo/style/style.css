@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  animation-name: rojoazul;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rojoazul {
+
+0%{
+color: red;
+font-size: 40px;
+}
+50%{
+color: green;
+}
+100%{
+color: blue;
+font-size: 120px;
+}
+}
