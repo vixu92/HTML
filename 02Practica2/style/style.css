@@ -1,21 +1,53 @@
 h1{
     text-align: center;
     color: red;
+
 }
-div{
-    width: 100%;
+h2{
     text-align: center;
-    padding: 50px;
-    margin: 90px;
+    color: red;
+
 }
-p{
-    width: 60%;
-    margin: 50px;
-    padding: 50px;
+ul{
+    display: block;
+    background-color: rgb(25, 173, 231);
     text-align: center;
+
 }
 li{
     list-style-type: none;
     display: inline-block;
-    margin: 20px;
+    border: solid 2px rgb(3, 247, 64);
+    margin: 10px;
+    font-size: 18px;
+    color: aqua;
+    background-color: greenyellow;
+    
+}
+li:hover{
+
+    color: rgb(161, 47, 1);
+    background-color: rgb(12, 224, 154);
+    font-size: 24px;
+
+}
+img{
+    width: 700px;
+    height: auto;
+    display:block;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+div{
+    width: 80%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+p{
+    width: 100%;
+    text-align: center;   
 }
