@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color: red;
 }
 div{
     width: 100%;
@@ -15,4 +16,6 @@ p{
 }
 li{
     list-style-type: none;
+    display: inline-block;
+    margin: 20px;
 }
