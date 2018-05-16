@@ -38,5 +38,13 @@ img{
     margin:auto;
     margin-top: 10px;
     margin-bottom: 50px;
+}
+.parrafo{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+.linea{
+    width: 60%;
 
 }
