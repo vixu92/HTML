@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body{
     background-color: rgba(8, 13, 20, 0.411);
 }
@@ -9,7 +13,11 @@ h1{
 h2{
     text-align: center;
     color: rgb(73, 4, 42);
-
+}
+nav{
+    padding-top: 6%;
+    background-color: lightblue;
+    margin: 0;
 }
 ul{
     display: block;
@@ -21,9 +29,9 @@ li{
     list-style-type: none;
     display: inline-block;
     border: solid 2px rgb(3, 247, 64);
-    margin: 10px;
+    margin: 15px;
     font-size: 18px;
-    color: aqua;
+    color: rgb(0, 26, 255);
     background-color: greenyellow;
     
 }
@@ -46,6 +54,7 @@ li:hover{
 }
 header{
     margin:0;
+    padding: 0;
 }
 header img{
     width: 100%;
@@ -84,8 +93,9 @@ header img{
     padding-right: 5%;
     display: inline-flex;
 }
-main{
-    padding: 8%
+.contenido{
+    padding: 2%;
+
 }
 footer{
     width: 100%;
@@ -97,6 +107,9 @@ footer address{
 
 footer p{
     text-align: right;
+}
+hr{
+    margin: 1%;
 }
 
 
