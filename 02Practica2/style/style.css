@@ -39,12 +39,35 @@ img{
     margin-top: 10px;
     margin-bottom: 50px;
 }
-.parrafo{
+.intro{
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 5%;
+    margin-bottom: 3%;
+    background-color: rgba(247, 20, 20, 0.185);
 }
-.linea{
-    width: 60%;
+
+.parrafo1{  
+    width: 30%;
+    margin: 2%;
+    float: left;
+    text-align: center;
 
 }
+.parrafo2{
+    width: 30%;
+    margin: 2%;
+    text-align: center;
+}
+.parrafo3{
+    width: 30%;
+    margin: 2%;
+    float: right;
+    text-align: center;   
+}
+
+.parrafos{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-flex;
+}
+
