@@ -1,11 +1,11 @@
 h1{
     text-align: center;
-    color: rgb(243, 108, 108);
+    color: rgb(3, 88, 245);
 
 }
 h2{
     text-align: center;
-    color: red;
+    color: rgb(73, 4, 42);
 
 }
 ul{
@@ -43,7 +43,6 @@ img{
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 3%;
-    background-color: rgba(247, 20, 20, 0.185);
 }
 
 .parrafo1{  
