@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(8, 13, 20, 0.411);
+}
+h1{
+    text-align: center;
+    color: rgb(3, 88, 245);
+
+}
+h2{
+    text-align: center;
+    color: rgb(73, 4, 42);
+
+}
+ul{
+    display: block;
+    background-color: rgb(25, 173, 231);
+    text-align: center;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    border: solid 2px rgb(3, 247, 64);
+    margin: 10px;
+    font-size: 18px;
+    color: aqua;
+    background-color: greenyellow;
+    
+}
+li:hover{
+
+    color: rgb(161, 47, 1);
+    background-color: rgb(12, 224, 154);
+    font-size: 24px;
+
+}
+.imagen{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: solid 2px blue;
+    border-radius: 25%;
+}
+header{
+    margin:0;
+}
+header img{
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.intro{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 3%;
+}
+
+.parrafo1{  
+    width: 30%;
+    margin: 2%;
+    float: left;
+    text-align: center;
+
+}
+.parrafo2{
+    width: 30%;
+    margin: 2%;
+    text-align: center;
+}
+.parrafo3{
+    width: 30%;
+    margin: 2%;
+    float: right;
+    text-align: center;   
+}
+
+.parrafos{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-flex;
+}
+main{
+    padding: 8%
+}
+footer{
+    width: 100%;
+    background-color: aquamarine;
+}
+footer address{
+    text-align: center;
+}
+
+footer p{
+    text-align: right;
+}
+
+
+
