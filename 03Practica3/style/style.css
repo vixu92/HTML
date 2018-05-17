@@ -28,19 +28,34 @@ ul{
 li{
     list-style-type: none;
     display: inline-block;
-    border: solid 2px rgb(161, 47, 1);
+    color: white;
     margin: 15px;
-    font-size: 18px;
-    color: rgb(0, 26, 255);
-    background-color: greenyellow;
-    
+    font-size: 18px; 
 }
 li:hover{
 
     color: rgb(161, 47, 1);
     background-color: rgb(12, 224, 154);
-    font-size: 24px;
+    font-size: 25px;
 
+}
+a:link{
+    color: #fef0ea; 
+    font-size: 18px; 
+    font-family: arial; 
+    text-decoration: none 
+}
+a:hover{
+    color: #fef0ea; 
+    font-size: 18px; 
+    font-family: arial; 
+    text-decoration: none 
+}
+a:visited{
+    color: #fef0ea; 
+    font-size: 18px; 
+    font-family: arial; 
+    text-decoration: none 
 }
 .imagen{
     width: 700px;
@@ -110,6 +125,15 @@ footer p{
 }
 hr{
     margin: 1%;
+}
+.arriba{
+    width: 50px;
+    height: auto;
+	padding:20px;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
 }
 
 
