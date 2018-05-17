@@ -39,41 +39,23 @@ li:hover{
     font-size: 25px;
 
 }
-li a:link{
-    color: #fef0ea; 
-    font-size: 18px; 
-    font-family: arial; 
-    text-decoration: none 
-}
-li a:hover{
-    color: #fef0ea; 
-    font-size: 18px; 
-    font-family: arial; 
-    text-decoration: none 
-}
-li a:visited{
-    color: #fef0ea; 
-    font-size: 18px; 
-    font-family: arial; 
-    text-decoration: none 
-}
 a:link{
-    color: #000; 
+    color: #fef0ea; 
     font-size: 18px; 
     font-family: arial; 
-    text-decoration: underline; 
+    text-decoration: none 
 }
 a:hover{
-    color: #000; 
+    color: #fef0ea; 
     font-size: 18px; 
     font-family: arial; 
-    text-decoration: underline;
+    text-decoration: none 
 }
 a:visited{
-    color: #000; 
+    color: #fef0ea; 
     font-size: 18px; 
     font-family: arial; 
-    text-decoration: underline; 
+    text-decoration: none 
 }
 .imagen{
     width: 700px;
@@ -132,7 +114,7 @@ header img{
 }
 footer{
     width: 100%;
-    background-color: aquamarine;
+    background-color: #000;
 }
 footer address{
     text-align: center;
@@ -153,8 +135,9 @@ hr{
 	bottom:20px;
 	right:20px;
 }
-.nombre{
+.copy{
     font-size: 22px;
+    color: #fff
 }
 
 
