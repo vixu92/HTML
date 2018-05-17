@@ -16,19 +16,19 @@ h2{
 }
 nav{
     padding-top: 6%;
-    background-color: lightblue;
+    background-color: #02000d;
     margin: 0;
 }
 ul{
     display: block;
-    background-color: rgb(25, 173, 231);
+    background-color: #02000d;
     text-align: center;
 
 }
 li{
     list-style-type: none;
     display: inline-block;
-    border: solid 2px rgb(3, 247, 64);
+    border: solid 2px rgb(161, 47, 1);
     margin: 15px;
     font-size: 18px;
     color: rgb(0, 26, 255);
@@ -49,7 +49,7 @@ li:hover{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 50px;
-    border: solid 2px blue;
+    border: solid 2px rgb(161, 47, 1);
     border-radius: 25%;
 }
 header{
