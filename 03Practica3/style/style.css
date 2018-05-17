@@ -39,23 +39,41 @@ li:hover{
     font-size: 25px;
 
 }
-a:link{
+li a:link{
     color: #fef0ea; 
     font-size: 18px; 
     font-family: arial; 
     text-decoration: none 
+}
+li a:hover{
+    color: #fef0ea; 
+    font-size: 18px; 
+    font-family: arial; 
+    text-decoration: none 
+}
+li a:visited{
+    color: #fef0ea; 
+    font-size: 18px; 
+    font-family: arial; 
+    text-decoration: none 
+}
+a:link{
+    color: #000; 
+    font-size: 18px; 
+    font-family: arial; 
+    text-decoration: underline; 
 }
 a:hover{
-    color: #fef0ea; 
+    color: #000; 
     font-size: 18px; 
     font-family: arial; 
-    text-decoration: none 
+    text-decoration: underline;
 }
 a:visited{
-    color: #fef0ea; 
+    color: #000; 
     font-size: 18px; 
     font-family: arial; 
-    text-decoration: none 
+    text-decoration: underline; 
 }
 .imagen{
     width: 700px;
@@ -134,6 +152,9 @@ hr{
 	position: fixed;
 	bottom:20px;
 	right:20px;
+}
+.nombre{
+    font-size: 22px;
 }
 
 
