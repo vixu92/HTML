@@ -23,42 +23,40 @@ ul{
     display: block;
     background-color: #02000d;
     text-align: center;
-
 }
 li{
     list-style-type: none;
     display: inline-block;
     color: white;
-    margin: 15px;
-    font-size: 18px; 
+    margin: 1rem;
+    font-size: 1.5rem; 
 }
 li:hover{
-
-    color: rgb(161, 47, 1);
-    background-color: rgb(12, 224, 154);
-    font-size: 25px;
-
+    font-size: 1.2rem;
+    color: #000;
+    background-color: rgba(252, 249, 249, 0.445);
 }
 a:link{
-    color: #fef0ea; 
-    font-size: 18px; 
+    color: rgb(255, 255, 255); 
+    font-size: 1.2rem; 
     font-family: arial; 
     text-decoration: none 
 }
 a:hover{
-    color: #fef0ea; 
-    font-size: 18px; 
+    color: rgb(255, 255, 255); 
+    font-size: 1.2rem; 
     font-family: arial; 
-    text-decoration: none 
+    text-decoration: none;
+    background-color: rgb(88, 88, 85); 
 }
 a:visited{
-    color: #fef0ea; 
-    font-size: 18px; 
+    color: rgb(255, 255, 255); 
+    font-size: 1.2rem; 
     font-family: arial; 
-    text-decoration: none 
+    text-decoration: none; 
 }
 .imagen{
-    width: 60rem;
+    width: 55rem;
     height: auto;
     display: block;
     margin: auto;
@@ -129,14 +127,14 @@ hr{
 .arriba{
     width: 50px;
     height: auto;
-	padding:20px;
-	cursor:pointer;
+	padding: 20px;
+	cursor: pointer;
 	position: fixed;
 	bottom:20px;
 	right:20px;
 }
 .copy{
-    font-size: 22px;
+    font-size: 1.2rem;
     color: #fff
 }
 
