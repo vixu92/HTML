@@ -1,0 +1,14 @@
+h3{
+    color: green;
+}
+.parrafoAzul{
+    color: blue;
+}
+
+nav ul li{
+    display: inline-block;
+}
+li a{
+    padding: 2rem;
+    margin: 2rem;
+}
