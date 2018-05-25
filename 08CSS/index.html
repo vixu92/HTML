@@ -30,7 +30,49 @@
 
         <h3>Selector de etiqueta</h3>
 
-        <p class="parrafoAzul">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint commodi molestiae ducimus natus quod excepturi aliquid similique nam sunt nobis iure quibusdam dolorum necessitatibus, ullam ab perferendis libero, ipsum porro.</p>
+        <p id="parrafoAzul">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint commodi molestiae ducimus natus quod excepturi aliquid similique nam sunt nobis iure quibusdam dolorum necessitatibus, ullam ab perferendis libero, ipsum porro.</p>
+
+
+        <button class="azul" onclick="azul()">Convertir parrafo a color azul</button>
+        <button class="rojo" onclick="rojo()">Convertir parrafo a color rojo</button>
+        <button class="nada" onclick="nada()">Volver al principio</button>  
+        <button class="borde" onclick="borde()">Redondear bordes</button>
+        <button class="quitarBorde" onclick="quitarBorde()">Quitar bordes</button>
+        <button class="bordeRecto" onclick="bordeRecto()">Bordes Rectos</button>
+        <script>
+    
+        var parrafo = document.getElementById("parrafoAzul");
+        
+        function rojo(){
+
+            parrafo.style.backgroundColor="lightcoral";
+            parrafo.style.border="2px solid red";
+        }
+        function azul(){
+
+            parrafo.style.backgroundColor="lightblue";
+            parrafo.style.border="2px solid blue";
+        }
+        function nada(){
+
+            parrafo.style.backgroundColor="transparent";
+            parrafo.style.border="none";
+        }
+        function borde(){
+
+            parrafo.style.borderRadius="45%";
+            parrafo.style.padding="2%";
+        }
+        function quitarBorde(){
+
+            parrafo.style.border="none";
+            parrafo.style.padding="default";
+        }
+        function bordeRecto(){
+
+            parrafo.style.borderRadius="0%";
+        }
+        </script>
 
     </main>
 
