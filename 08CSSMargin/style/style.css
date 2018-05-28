@@ -1,0 +1,90 @@
+.azul{
+    border: 1px solid blue;
+    border-radius: 25%;
+    background-color: aquamarine;
+    padding: 2%;
+    color: blue;
+}
+.rojo{
+    border: 1px solid red;
+    border-radius: 25%;
+    background-color: rgba(236, 34, 19, 0.384);
+    padding: 2%;
+    color: red;
+}
+.azul::first-letter{
+    font-size: 1.5rem;
+    font-weight: 900; 
+    color: blue;
+}
+.rojo::first-letter{  
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.azul:hover{
+    border: 2px solid blue;
+    border-radius: 35%;
+    background-color: rgb(16, 247, 170);
+    padding: 2%;
+}
+.rojo:hover{
+    border: 1px solid red;
+    border-radius: 35%;
+    background-color:  rgba(209, 32, 20, 0.616);;
+    padding: 2%;
+}
+.nada{
+    border: 1px solid rgb(2, 94, 7);
+    border-radius: 25%;
+    background-color:  rgb(89, 209, 20);;
+    padding: 2%;
+  }
+.nada:hover{
+    border: 1px solid red;
+    border-radius: 35%;
+    background-color:  rgba(8, 138, 40, 0.616);;
+    padding: 2%;
+}
+.nada::first-letter{  
+    color: rgb(17, 92, 36);
+    font-size: 1.5rem;
+    font-weight: 900;    
+}
+.borde{
+    border: 1px solid rgb(217, 4, 245);
+    border-radius: 25%;
+    background-color:  rgba(94, 6, 235, 0.466);;
+    padding: 2%;
+}
+.borde:hover{
+    border: 1px solid rgb(129, 4, 245);
+    border-radius: 35%;
+    background-color:  rgba(235, 6, 235, 0.596);;
+    padding: 2%;
+}
+.quitarBorde{
+    border: 1px solid rgb(247, 222, 4);
+    border-radius: 25%;
+    background-color:  rgba(231, 235, 6, 0.534);;
+    padding: 2%;
+}
+.quitarBorde:hover{
+    border: 1px solid rgb(247, 222, 4);
+    border-radius: 35%;
+    background-color:  rgba(139, 141, 13, 0.534);;
+    padding: 2%;
+}
+.bordeRecto{
+    border: 1px solid rgb(12, 248, 217);
+    border-radius: 25%;
+    background-color:  rgba(55, 226, 203, 0.986);;
+    padding: 2%;
+}
+.bordeRecto:hover{
+    border: 1px solid rgb(4, 8, 247);
+    border-radius: 35%;
+    background-color:  rgba(4, 90, 79, 0.534);;
+    padding: 2%;
+}
