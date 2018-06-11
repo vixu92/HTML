@@ -8,9 +8,12 @@
     "server": "http-server ../",
     "sass": "sass scss:css",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:watch": "nodemon -e scss -x \"sass scss:css\"",
+    "sass:watch": "nodemon -e scss -x \"sass scss:css\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
 }
