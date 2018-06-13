@@ -1,0 +1,16 @@
+div{
+    position: static;
+    width: 50%;
+    background-color: darksalmon;
+    margin: 1rem;
+    padding: 1rem;
+}
+div p{
+    padding: 2rem;
+    background-color: lightskyblue;
+}
+.relative{
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+}
