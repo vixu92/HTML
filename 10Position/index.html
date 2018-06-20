@@ -7,15 +7,46 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Posicionar cajas</title>
+    <script>
+    
+    function vermenu1(){
+        document.getElementById("submenu1").style.display = "block";
+    }
+    function vermenu2(){
+        document.getElementById("submenu2").style.display = "block";
+    }
+    function ocultarmenu1(){
+        document.getElementById("submenu1").style.display = "none";
+    }
+    function ocultarmenu2(){
+        document.getElementById("submenu2").style.display = "none";
+    }
+    
+    </script>
 </head>
-<body>
+<body onclick="ocultarmenu1()" onclick="ocultarmenu2()">
 
     <header> 
         <nav>
          <ul>
             <li><a href="">Inicio</a></li>
-            <li><a href="">Pagina1</a></li>
+         
+            <li onmouseover="vermenu1()"><a href="">Pagina1</a></li>
+
+            <ul id="submenu1">
+                    <li><a href="">Pagina 1.1</a></li><br>
+                    <li><a href="">Pagina 1.2</a></li><br>
+                    <li  onmouseover="vermenu2()"><a href="">Pagina 1.3</a></li>
+
+                    <ul id="submenu2">
+                        <li> <a href="">Pagina 1.3.1</a></li>
+                        <li> <a href="">Pagina 1.3.2</a> </li>
+                    </ul>
+
+                </ul>
+
             <li><a href="">Pagina2</a></li>
+
             <li><a href="">Pagina3</a></li>
          </ul>
         </nav>

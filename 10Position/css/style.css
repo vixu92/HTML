@@ -74,8 +74,7 @@ header nav ul li{
     
 }
 header nav ul li:hover{
-    font-size: 1.2rem;
-
+    font-weight: 800;
 }
 header nav ul li a{
     color: inherit;
@@ -98,4 +97,20 @@ header h1{
 body{
     background-color:rgb(226, 253, 253);
     font-family: 'Comfortaa', cursive;
+}
+#submenu1{
+    position: absolute;
+    float: rigth;
+    display: block;
+    margin-top: 1rem;
+    display: none;
+    padding-left: 15rem;
+}
+#submenu2{
+    position: absolute;
+    display: block;
+    float: rigth;
+    display: none;
+    margin-top: 1rem;
+    margin-left: 5rem;
 }
